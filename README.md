@@ -11,3 +11,9 @@ In this project I am showcasing my awareness of:
 ## Author
 
 Gagandeep Singh
+
+## automatic_teller_machine.py
+
+This program is about an ATM, having Pixell River Financial customers
+to making account management more usefull and easy for deposit and
+withdraw money.
