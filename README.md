@@ -4,9 +4,9 @@
 
 In this project I am showcasing my awareness of:
 
-- Version Control
-- ATM(Automatic Teller Machine)
-- Interest Update
+- Working with Strings
+- File Input and Output
+- Conditional Statements
 
 ## Author
 
