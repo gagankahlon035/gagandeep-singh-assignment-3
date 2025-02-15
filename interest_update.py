@@ -3,7 +3,7 @@ from pprint import pprint
 
 account_balances = {}
 
-with open("account_balance.txt", "r") as file:
+with open("account_balances.txt", "r") as file:
     for line in file:
         account_number, balance = line.strip().split("|")
         account_balances[account_number] = float(balance)
@@ -26,3 +26,11 @@ for account_number, balance in account_balances.items():
 
 print("updated Account Balances after interest: ")
 pprint(account_balances)
+
+csv_filename = "updated_balances_GS.csv"
+
+with open(csv_filename, "w", newline= "") as file:
+    file.write("Account, Balance\n")
+    for account_number, balance in account_balances.items():
+        file.write(f"{account_number}, {balance}\n")
+        
