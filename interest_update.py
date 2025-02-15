@@ -33,4 +33,10 @@ with open(csv_filename, "w", newline= "") as file:
     file.write("Account, Balance\n")
     for account_number, balance in account_balances.items():
         file.write(f"{account_number}, {balance}\n")
+
+print(" Final Data from the CVS file: ")
+with open (csv_filename, "r") as file:
+    reader = csv.DictReader(file)
+    for row in reader:
+        print(row)
         
