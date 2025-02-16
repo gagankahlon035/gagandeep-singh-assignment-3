@@ -20,3 +20,6 @@ withdraw money.
 
 ## interest_update.py
 
+This module is about the reading of the customer account balances,
+calculate the interest based on the balance, update the balances by
+saving them to CSV file and also print it.
